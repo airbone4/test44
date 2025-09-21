@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            background-color: black;
+            color: white;
+        }
+        .left {
+            flex: 1;
+            background-color: #333;
+            padding: 20px;
+        }
+        .right {
+            flex: 1;
+            background-color: #444;
+            padding: 20px;
+        }
+        .progress {
+            list-style-type: none;
+            padding: 0;
+        }
+        .progress li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <h2>Reading Progress</h2>
+        <p id="progress">0%</p>
+    </div>
+    <div class="right">
+        <h1 style="color: red;">Hello World</h1>
+        <p  >this is</p>
+        <p  >seco<a href=""></a>nd</p>
+        <h1>兔子的故事second</h1>
+        <p>Once upon a time, a rabbit and a tortoise decided to have a race. The rabbit, confident of winning, took a nap midway. Meanwhile, the tortoise kept moving steadily and won the race. The story teaches us that slow and steady wins the race.</p>
+        <p>Once upon a time, a rabbit and a tortoise decided to have a race. The rabbit, confident of winning, took a nap midway. Meanwhile, the tortoise kept moving steadily and won the race. The story teaches us that slow and steady wins the race.</p>
+        <p>Once upon a time, a rabbit and a tortoise decided to have a race. The rabbit, confident of winning, took a nap midway. Meanwhile, the tortoise kept moving steadily and won the race. The story teaches us that slow and steady wins the race.</p>
+        <p>Once upon a time, a rabbit and a tortoise decided to have a race. The rabbit, confident of winning, took a nap midway. Meanwhile, the tortoise kept moving steadily and won the race. The story teaches us that slow and steady wins the race.</p>
+        <p>Once upon a time, a rabbit and a tortoise decided to have a race. The rabbit, confident of winning, took a nap midway. Meanwhile, the tortoise kept moving steadily and won the race. The story teaches us that slow and steady wins the race.</p>
+        <p>Once upon a time, a rabbit and a tortoise decided to have a race. The rabbit, confident of winning, took a nap midway. Meanwhile, the tortoise kept moving steadily and won the race. The story teaches us that slow and steady wins the race.</p>
+        <p>Once upon a time, a rabbit and a tortoise decided to have a race. The rabbit, confident of winning, took a nap midway. Meanwhile, the tortoise kept moving steadily and won the race. The story teaches us that slow and steady wins the race.</p>
+        <p>Once upon a time, a rabbit and a tortoise decided to have a race. The rabbit, confident of winning, took a nap midway. Meanwhile, the tortoise kept moving steadily and won the race. The story teaches us that slow and steady wins the race.</p>
+    </div>
+
+    <script>
+        document.addEventListener('scroll', () => {
+            const rightContent = document.querySelector('.right');
+            const progressElement = document.getElementById('progress');
+
+            const totalHeight = rightContent.scrollHeight - rightContent.clientHeight;
+            const scrollPosition = rightContent.scrollTop;
+
+            const progress = Math.min((scrollPosition / totalHeight) * 100, 100);
+            progressElement.textContent = `${progress.toFixed(0)}%`;
+        });
+    </script>
+</body>
+</html>
