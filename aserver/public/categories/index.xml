@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My New Hugo Site</title>
-    <link>https://github.com:1313/airbone4/test44/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
+    <title>Categories :: My New Hugo Site</title>
+    <link>https://310fce9d-b767-4c6f-a457-d61d8c325a84-1313.apps.codespaces.githubusercontent.com/categories/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://github.com:1313/airbone4/test44/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://310fce9d-b767-4c6f-a457-d61d8c325a84-1313.apps.codespaces.githubusercontent.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

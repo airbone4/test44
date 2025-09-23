@@ -4,9 +4,13 @@
 - 其他
   - hugo
 ## 語言
-client site: html, css, javascript
+client site: html, css, javascript,markdown
 server site: python,shell language
 
+## vscode
+- 解釋一下左邊檔案目錄 
+  - 隱藏資料夾、隱藏檔案 (dos?)
+- terminal 
 ## git
 常用指令
 
@@ -82,29 +86,44 @@ server site: python,shell language
 
   修改分支名稱。
 
-## web
-### static page
+## static web
+### by hand
 在codespace 中預覽html
 1. `npm i -g http-server`
 1. `http-server` 
 
-### hugo
+### by hugo
 
 - 安裝 hugo 
 
   在codespace 中已經內建
 
-```
-hugo new site . --force
-# add ananke theme
-git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
-#set theme
-echo >> config.toml
-# create new post hugo new posts/my-first-post.md
-hugo new posts/my-first-post.md
-```
+- 建立網站結構
+  ```
+  hugo new site [.|資料夾名稱] --force
+  ```
 
-```
-hugo server -D --baseURL https://${CLOUDENV_ENVIRONMENT_ID}-1313.apps.codespaces.githubusercontent.com --appendPort=false
-```
+- 加入theme
+  ```
+  git submodule add https://github.com/McShelby/hugo-theme-relearn themes/relearn
+  # 另一個
+  ❌git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+  ```
+- hugo.toml 中設定theme
+  ```
+  baseURL = 'https://example.org/'
+  languageCode = 'en-us'
+  title = 'My New Hugo Site'
+  theme= 'relearn'
+
+  ```
+- create new post hugo new posts/my-first-post.md
+  ```
+  hugo new posts/my-first-post.md
+  ```
+
+- 預覽
+  ```
+  hugo server -D --baseURL https://${CLOUDENV_ENVIRONMENT_ID}-1313.apps.codespaces.githubusercontent.com --appendPort=false
+  ```
 

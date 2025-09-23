@@ -1,18 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://github.com:1313/airbone4/test44/posts/my-first-post/</loc>
+    <loc>https://310fce9d-b767-4c6f-a457-d61d8c325a84-1313.apps.codespaces.githubusercontent.com/index.html</loc>
     <lastmod>2025-09-22T05:46:45+00:00</lastmod>
-  </url><url>
-    <loc>https://github.com:1313/airbone4/test44/</loc>
+  </url>
+  <url>
+    <loc>https://310fce9d-b767-4c6f-a457-d61d8c325a84-1313.apps.codespaces.githubusercontent.com/posts/index.html</loc>
     <lastmod>2025-09-22T05:46:45+00:00</lastmod>
-  </url><url>
-    <loc>https://github.com:1313/airbone4/test44/posts/</loc>
+  </url>
+  <url>
+    <loc>https://310fce9d-b767-4c6f-a457-d61d8c325a84-1313.apps.codespaces.githubusercontent.com/posts/my-first-post/index.html</loc>
     <lastmod>2025-09-22T05:46:45+00:00</lastmod>
-  </url><url>
-    <loc>https://github.com:1313/airbone4/test44/categories/</loc>
-  </url><url>
-    <loc>https://github.com:1313/airbone4/test44/tags/</loc>
+  </url>
+  <url>
+    <loc>https://310fce9d-b767-4c6f-a457-d61d8c325a84-1313.apps.codespaces.githubusercontent.com/categories/index.html</loc>
+  </url>
+  <url>
+    <loc>https://310fce9d-b767-4c6f-a457-d61d8c325a84-1313.apps.codespaces.githubusercontent.com/tags/index.html</loc>
   </url>
 </urlset>

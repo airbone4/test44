@@ -1,3 +1,6 @@
 [submodule "aserver/themes/ananke"]
 	path = aserver/themes/ananke
 	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "aserver/themes/relearn"]
+	path = aserver/themes/relearn
+	url = https://github.com/McShelby/hugo-theme-relearn
